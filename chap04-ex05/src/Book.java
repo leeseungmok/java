@@ -13,7 +13,7 @@ public class Book {
 	}
 	
 	public Book(String title){
-		this(title, "ÀÛÀÚ¹Ì»ó");
+		this(title, "ì‘ìë¯¸ìƒ");
 	}
 	
 	public Book(String title, String author){
@@ -23,8 +23,8 @@ public class Book {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Book littlePrince = new Book("¾î¸°ÀÌ","À¯Á¤Àç");
-		Book loveStory = new Book("°£¿µÈÆ·Ã");
+		Book littlePrince = new Book("ì–´ë¦°ì´","ìœ ì •ì¬");
+		Book loveStory = new Book("ê°„ì˜ì›…ì „");
 		Book emptyBook = new Book();
 		littlePrince.show();
 		loveStory.show();
